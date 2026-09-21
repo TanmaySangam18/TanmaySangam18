@@ -20,7 +20,7 @@ MS Project Management (STEM) @ Northeastern '26 — Boston, MA.
 
 **[Bharat Ane Nenu](https://praja-lekka.vercel.app)** — Bilingual (EN / తెలుగు) public ledger of Andhra Pradesh government manifesto promises. Trust model is a type constraint: `Source` is a required field on every `Promise` in `lib/types.ts`. Something a politician said but never wrote in an official document does not appear. No database — all content in local `.ts` files, deploys anywhere.
 
-**[kindred](https://tanmaysangam18.github.io/kindred/)** — Dating matched on reading history, not photos. Validated by competitor.inc before any UI was written: demand analysis, competitor gap, churn-pattern review. The signal: what someone reads is a durable proxy for how they think. Planned stack: pgvector for book embeddings, Jaccard + cosine composite matching, max 3 matches/week (anti-infinite-scroll by design).
+**[kindred](https://tanmaysangam18.github.io/kindred/)** — Dating matched on reading history, not photos. Validated by competitor.inc before any UI was written: demand analysis, competitor gap, churn-pattern review. Planned stack: pgvector for book embeddings, Jaccard + cosine composite matching, max 3 matches/week (anti-infinite-scroll by design).
 
 ---
 
@@ -28,7 +28,17 @@ MS Project Management (STEM) @ Northeastern '26 — Boston, MA.
 
 ---
 
-<img align="right" height="150" src="https://github-readme-stats.vercel.app/api?username=TanmaySangam18&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_rank=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TanmaySangam18/TanmaySangam18/output/snake-dark.svg" />
+  <img alt="contribution graph snake" src="https://raw.githubusercontent.com/TanmaySangam18/TanmaySangam18/output/snake.svg" />
+</picture>
+
+<br/>
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=TanmaySangam18&show_icons=true&theme=transparent&hide_border=true&count_private=true&hide_rank=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanmaySangam18&layout=compact&theme=transparent&hide_border=true&langs_count=6" />
+
+---
 
 [portfolio](https://tanmaysangam.vercel.app) · [linkedin](https://linkedin.com/in/tanmaysangam) · tanmaysangam018@gmail.com
 

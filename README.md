@@ -8,8 +8,6 @@ MS Project Management (STEM) @ Northeastern '26 — Boston, MA.
 
 ### Active projects
 
-Customer pays → payment processor webhook → HMAC verification → OpenRTB 2.5 bid → Glance lock screen ad in under 450ms. The insight: a transaction that just completed is the highest-intent signal in mobile advertising, and it's invisible to every ad exchange. Platform-level B2B deals (Cashfree: 800K+ merchants, Pine Labs: 1.1M POS terminals) mean zero merchant action required — one signed agreement, the entire network. FastAPI + BackgroundTasks so the payment processor gets its 200 before the RTB window opens. Phone numbers SHA-256 hashed before leaving the server.
-
 **[FleetMind](https://github.com/TanmaySangam18/fleetmind)** — LLM inference distributed across Android employee phones over mDNS + round-robin load balancing. Exposes a drop-in OpenAI-compatible API on `:8080`; no new hardware, no data egress. The premise: a Snapdragon 8 Gen 1 runs Llama 3.2 1B at ~15 tok/s. 500 phones → 2.3M queries/month at $0 cloud cost. Agent delivered via MDM in under 5 minutes, silent install, zero user interaction.
 
 **[competitor.inc](https://competitor-inc-zeta.vercel.app)** — A governed AI workforce: 56 named roles in a real org hierarchy, each with scoped permissions. The treasury enforces per-department budget envelopes; over-budget spend escalates before money moves. Key invariant: permission is a value only the gate can mint — if a guardrail can be satisfied by passing `approved: true`, it's documentation, not a guardrail. Agents get two-way email; sends queue through governance with AI disclosure appended. Irreducible actions (money, contracts, launches) always return to a human.
